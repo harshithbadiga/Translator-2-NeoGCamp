@@ -49,3 +49,7 @@ button{
     border: none;
     font-weight: bolder;
 }
+
+.reset{
+    margin-top: 1rem;
+}

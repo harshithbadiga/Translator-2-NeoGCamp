@@ -1,6 +1,7 @@
 var userInput = document.querySelector("#user-input")
 var translateBtn = document.querySelector(".translate-btn")
 var output = document.querySelector("#system-output")
+var resetBtn = document.querySelector("#reset-btn")
 
 
 function convertURL(text){
@@ -19,8 +20,13 @@ function translateText(){
     })
 }
 
+function refreshMe(){
+    location.reload()
+}
 
 
 
 
 translateBtn.addEventListener("click", translateText)
+
+resetBtn.addEventListener("click", refreshMe)
