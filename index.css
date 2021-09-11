@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#user-input{
+    margin: 0 auto;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+}
+
+#system-output{
+    margin: 0 auto;
+}
