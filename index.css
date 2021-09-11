@@ -25,3 +25,27 @@
 #system-output{
     margin: 0 auto;
 }
+
+label{
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+body{
+    background-color: bisque;
+}
+h1{
+    font-size: 2rem;
+}
+
+button{
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+}
