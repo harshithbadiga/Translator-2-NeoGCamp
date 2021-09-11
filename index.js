@@ -4,15 +4,15 @@ var output = document.querySelector("#system-output")
 
 
 function convertURL(text){
-    var basicURL = "https://api.funtranslations.com/translate/chef.json"
+    var basicURL = "https://api.funtranslations.com/translate/shakespeare.json"
     var convertedURL =  basicURL + "?" + "text=" + text
-    return convertURL
+    return convertedURL
 }
 
 function translateText(){
     var userText = userInput.value
     fetch(convertURL(userText))
-    .then( response => response.json)
+    .then( response => response.json())
     .then( json => {
         var translatedText = json.contents.translated
         output.innerText = translatedText
